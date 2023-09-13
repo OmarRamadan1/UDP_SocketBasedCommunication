@@ -8,7 +8,7 @@ This Python script is a simple implementation of UDP (User Datagram Protocol) co
 
 1. Run the script.
 2. When prompted, enter the destination IP address and port number.
-3. The script will bind a socket to your machine's IP address (`100.64.7.1`) and the specified port number.
+3. The script will bind a socket to your machine's IP address in my case (`100.64.7.1`) and the specified port number (you can easily change it from the script itself).
 4. The script on other side will also bind to your other machine's IP adress and the specified (same) port number.
 5. It will then send a message saying 'Hello, I am Windows, using UDP!' and recieve 'Hello, I am Linux' to the specified destination.
 6. The script will then enter a loop where it waits for incoming messages and allows you to send messages.
